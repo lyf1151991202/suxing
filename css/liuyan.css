@@ -1,0 +1,169 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-22 11:33:19
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-09-17 17:47:01
+*/
+@import url('base.css');
+body{
+	background: #F2F2F2;
+}
+.h-m-right li:nth-child(6) a{
+	color: #16b0dc;
+}
+.header{
+	background: #fff;
+}
+.h-m-right li a{
+	color: #333;
+}
+.title{
+	color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 10px;
+    margin: 0px;
+    margin: 100px 0 70px;
+    text-align: center;
+}
+.animsition{
+	width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.a-left{
+	width: 780px;
+	background: #fff;
+	padding: 30px 30px 70px;
+	box-sizing: border-box;
+	position: relative;
+}
+.a-left li{
+	width: 100%;
+	height: 79px;
+	border-bottom: 1px solid #E4EAEC;
+	padding: 10px 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.a-l-left{
+	width: 46px;
+	height: 53px;
+	font-size: 38px;
+	color: #A3AFB7;
+}
+.a-l-right{
+	width: 672px;
+	height: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.a-l-right h1{
+	font-weight: 400;
+    line-height: 1.2;
+    color: #37474f;
+    font-size: 14px;
+}
+.a-l-right h1 small{
+	float: right;
+	font-size: 12px;
+}
+.a-l-right h2{
+	font-size: 14px;
+    color: #76838f;
+
+}
+.more{
+	width: 720px;
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	height: 26px;
+	background: #E4EAEC;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.more a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #76838F;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: center;
+}
+.more a i{
+	font-size: 14px;
+	margin-right: 4px;
+}
+.more a:hover{
+	background: #F3F7F9;
+}
+.a-right{
+	width: 360px;
+	height: 348px;
+	padding: 30px;
+	box-sizing: border-box;
+	background: #fff;
+}
+.a-right form{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.a-right form input{
+	display: block;
+    width: 100%;
+    height: 36px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #76838f;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+    text-indent: 1em;
+    box-sizing: border-box;
+}
+.a-right form textarea{
+	width: 100%;
+	text-indent: 1em;
+	resize: none;
+}
+.yan{
+	width: 100%;
+	height: 36px;
+	display: flex;
+}
+.yan .yanzheng{
+	width: 189px;
+}
+.yan span{
+	display: flex;
+	width: 111px;
+	height: 36px;
+	padding: 6px 15px;
+	box-sizing: border-box;
+	border: 1px solid #e4eaec;
+	border-left: none;
+	background: #f3f7f9;
+}
+.a-right form button{
+	width: 100%;
+	height: 36px;
+	background: #62a8ea;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+}
+.a-right form button:hover{
+	background: #89BCEB;
+}

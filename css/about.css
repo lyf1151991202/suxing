@@ -1,0 +1,49 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-22 11:38:06
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-22 14:49:31
+*/
+@import url('base.css');
+.h-m-right li:last-child a{
+	color: #16b0dc;
+}
+/* 素馨工作室开始 */
+.section3{
+	width: 100%;
+	height: 926px;
+}
+.s3-main{
+	width: 1170px;
+	height: 900px;
+	margin: 0 auto;
+}
+.s3-main h1{
+	text-align: center;
+	line-height: 182px;
+	font-size: 34px;
+	color: #37474f;
+}
+.s3-main h2{
+	text-align: center;
+	line-height: 58px;
+	color: #505050;
+	font-size: 16px;
+	margin-bottom: 4px;
+}
+.s3-main p{
+	text-align: center;
+	line-height: 32px;
+	color: #505050;
+}
+.s3-main img{
+	display: block;
+	width: 530px;
+	height: 340px;
+	margin: 35px auto;
+}
+.section3 hr{
+	border: none;
+	background: #f0f2f5;
+	height: 1px;
+}

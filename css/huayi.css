@@ -1,0 +1,100 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-22 09:54:14
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-22 11:26:02
+*/
+@import url('base.css');
+.header{
+	background: #fff;
+}
+.h-m-right li a{
+	color: #333;
+}
+.h-m-right li:nth-child(5) a{
+	color: #16b0dc;
+}
+.blocks{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.blocks li{
+	width: 50%;
+	height: 50%;
+	overflow: hidden;
+	position: relative;
+}
+.blocks li img{
+	width: 100%;
+	height: 100%;
+	transition: all .2s ease-in-out;
+}
+.blocks li:hover img{
+	transform: scale(1.1);
+}
+.blocks li:hover .overlay-background{
+	background: rgba(0, 0, 0, .5);
+}
+.blocks li:hover .vertical-align-middle{
+	opacity: 1;
+}
+.overlay-background{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.vertical-align-middle{
+	width: 144px;
+	height: 137px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	opacity: .5;
+}
+.vertical-align-middle i{
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 1.5;
+}
+.vertical-align-middle span{
+	display: block;
+	width: 20px;
+	height: 2px;
+	background: #fff;
+}
+.vertical-align-middle h1{
+	color: #fff;
+	font-size: 24px;
+	font-weight: 400;
+    line-height: 1.2;
+}
+.vertical-align-middle h2{
+	width: 60px;
+	height: 34px;
+	text-align: center;
+	line-height: 36px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+.vertical-align-middle h2 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}
+.vertical-align-middle h2 a:hover{
+	background: #fff;
+	color: rgba(0, 0, 0, .5);
+}

@@ -1,0 +1,111 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-20 18:30:50
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-09-18 15:08:13
+*/
+/* 头部开始 */
+.header{
+	width: 100%;
+	height: 79px;
+	/* border-bottom: 1px solid #e4eaec; */
+	background: rgba(255, 255, 255, .2);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.main{
+	width: 1170px;
+	height: 79px;
+	margin: 0 auto;
+}
+.h-m-left{
+	height: 100%;
+	float: left;
+}
+.h-m-left a{
+	width: 150px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.h-m-left img{
+	width: 150px;
+	height: 50px;
+}
+.h-m-right{
+	height: 100%;
+	float: right;
+}
+.h-m-right li{
+	height: 100%;
+	float: left;
+}
+.h-m-right li a{
+	display: block;
+	height: 100%;
+	padding-left: 30px;
+	line-height: 79px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+.h-m-right li a.listhot{
+	color: #16b0dc;
+}
+.h-m-right li a:hover{
+	color: #16b0dc;
+}
+/* footer开始 */
+footer{
+	width: 100%;
+	height: 160px;
+	background: #f5f5f5;
+}
+.f-top{
+	width: 100%;
+	height: 56px;
+	text-align: center;
+	line-height: 56px;
+	margin-top: 10px;
+}
+.f-top a{
+	font-size: 30px;
+}
+.f-top a:first-child{
+	color: #83b944;
+}
+.f-top a:nth-child(2){
+	color: #62a8ea;
+}
+.f-top a:last-child{
+	color: #62a8ea;
+}
+footer p{
+	width: 375px;
+	height: 26px;
+	margin: 0 auto;
+	line-height: 26px;
+	font-size: 12px;
+	text-align: center;
+}
+footer p a{
+	color: #62a8ea;
+	float: left;
+}
+footer p a:hover{
+	text-decoration: underline;
+}
+footer p a img{
+	float: left;
+	width: 20px;
+	height: 20%;
+	margin-left: 16px;
+}
+footer h1{
+	text-align: center;
+	line-height: 26px;
+	font-size: 12px;
+	color: #aaaaaa;
+}
